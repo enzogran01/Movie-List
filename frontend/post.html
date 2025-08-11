@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>🎬 MovieList</title>
+</head>
+<body>
+    <header>
+        <h1>Postar Filme</h1>
+    </header>
+    <section class="filme-post-section">
+        <a href="index.html" class="postar_filme_link">Voltar</a>
+        <form action="index.html" method="POST" id="post_movie_form">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" max="100" required>
+
+            <label for="descricao">Descrição (opcional)</label>
+            <textarea type="text" id="descricao" max="500" placeholder="Digite seu texto..."></textarea>
+
+            <label for="genero">Escolha um gênero</label>
+            <select name="genero" id="genero" required>
+                <option value="AÇÃO">AÇÃO</option>
+                <option value="COMÉDIA">COMÉDIA</option>
+                <option value="DRAMA">DRAMA</option>
+                <option value="FICÇÃO CIENTIFÍCA">FICÇÃO CIENTÍFICA</option>
+                <option value="TERROR">TERROR</option>
+                <option value="ROMANCE">ROMANCE</option>
+                <option value="ANIMAÇÃO">ANIMAÇÃO</option>
+                <option value="DOCUMENTÁRIO">DOCUMENTÁRIO</option>
+                <option value="TRAGICOMÉDIA">TRAGICOMÉDIA</option>
+                <option value="CRIME">CRIME</option>
+                <option value="THRILLER">THRILLER</option>
+            </select>
+
+            <label for="imagem_url">Url - Imagem do filme</label>
+            <input type="text" id="imagem_url" max="255" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <script src="src/js/post.js"></script>
+</body>
+</html>
