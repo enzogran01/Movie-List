@@ -15,7 +15,7 @@ Bem-vindo ao MovieList, um projeto desenvolvido com Node.js, Express e MySQL par
     3. **GIT** (opcional, caso queira clonar o repositório) [download](https://git-scm.com/downloads)  
         - Clique no botão verde _Code_ em cima dos commits,
         - Copie a url no pop-up
-        - No **Git Bash**, rode o comando: `git clone `
+        - No **Git Bash**, rode o comando: `git clone https://github.com/enzogran01/Movie-List.git`
     4. **Dependências** MySQL2, Express, Cors
         - `node i express`
         - `node i mysql2`
